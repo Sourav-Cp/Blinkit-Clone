@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.blinkit-nav-bar{
+    border-bottom: 1px solid rgb(238, 238, 238);
+    position: sticky;
+    top: 0px;
+    height: 86px;
+    background: white; 
+    box-sizing: border-box;  
+    z-index: 10;
+}
+.vertical-line{
+    border-left: 1px solid rgb(238, 238, 238);
+    height: 100%;
+}
+.location > p{
+    font-size: 13px;
+    font-weight: 400;
+}
+.search-bar{
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 8px;
+    width: 40vw;
+    border: 1px solid rgb(238, 238, 238);
+}
+.search-bar > input{
+    width: 95%;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    color: rgb(153,153,153);
+}
+.search-bar > input:focus{
+    outline: none;
+}
+.mycart-button{
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(12, 131, 31);
+    cursor: pointer;
+}
+.my-scrollable-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    overflow-x: auto;
+    width: 85vw;
+}
+.list{
+    width: 100%;
+    margin-inline: auto;
+    white-space: nowrap;
+}
+.list > div{
+    display: inline-block;
+    margin: 10px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.my-categories{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 85vw;
+    margin-inline: auto;
+}
+.my-category-div{
+    width: 85vw;
+    margin-inline: auto;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.my-card{
+    width: 190px;
+    box-sizing: border-box;
+    white-space: wrap;
+}
+.time-taken{
+    font-size: 9px;
+    font-weight: 700;
+    color: rgb(54,54,54);
+    padding: 1px 3px;
+    width: fit-content;
+}
+.product-name{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 13px;
+    display: -webkit-box;
+    line-height: 18px;
+    width: 100%;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+.product-weight{
+    color: #666666;
+    font-size: 11px;
+}
+.product-price{
+    color: rgb(31, 31, 31);
+    font-weight: 600;
+    font-size: 12px;
+}
+.product-button{
+    border: 1px solid green;
+    color: rgb(49,134,22);
+    border-radius: 6px;
+    background-color: rgb(247,255,249);
+    width: 66px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 10px;
+}
+.my-category-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+    overflow-x: auto;
+    width: 90vw;
+}
+.testing-purpose{
+    width: 100%;
+    margin-inline: auto;
+    white-space: nowrap;
+}
+.testing-purpose > div{
+    display: inline-block;
+    margin: 10px;
+}
+.my-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+    width: 85vw;
+}
+.row-2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+.row-2-col-1{
+    width: 30vw;
+}
+.row-2-col-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-2-col-2 > button{
+  width: 100px;
+  height: 30px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  background-color: #213b50;
+  margin-inline: 5px;
+}
+.row-2-col-3{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row-2-col-3 > a{
+    border-radius: 50%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 5px;
+}
+.row-3{
+    color: #666666;
+    font-size: 16px;
+    padding: 10px;
+    text-align: justify;
+}
+.row-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 30px;
+}
+td{
+    padding: 3px 20px;
+    color: #666666;
+    font-size: 16px;
+}
+.headings{
+    padding-bottom: 10px;
+}
+.table-2{
+ flex: 2;
+}
+.table-1{
+    flex: 1;
+}
+.lets-check{
+    text-align: left;
+}
+.download{
+    font-weight: 600;
+    font-size: 17px;
+    margin: 16px;
+    color: #666;
+}
